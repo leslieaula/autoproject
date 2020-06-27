@@ -19,15 +19,15 @@
 
 <body class="text-center">
     <nav class="navbar navbar-light navbar-expand-md border-secondary navigation-clean-button">
-        <div class="container"><a class="navbar-brand" href="<?= base_url('home/index'); ?>">AutoProject</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand" href="<?= base_url('home'); ?>">AutoProject</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div></div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="<?= base_url('home/index'); ?>">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="<?= base_url('home/news'); ?>">News</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="<?= base_url('home'); ?>">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="<?= base_url('news'); ?>">News</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="<?= base_url('home/review'); ?>">Review</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="<?= base_url('home/about'); ?>">About Us</a></li>
-                </ul><span class="navbar-text actions"> <a class="login" href="login.html">Login</a><a class="login" href="#">|</a><a class="login" href="register.html">Register</a></span>
+                </ul><span class="navbar-text actions"> <a class="login"  href="<?= base_url('login'); ?>">Login</a><a class="login">|</a><a class="login" href="register.html">Register</a></span>
             </div>
         </div>
     </nav>
