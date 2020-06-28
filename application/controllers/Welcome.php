@@ -21,6 +21,9 @@ class Welcome extends CI_Controller
 	 */
 	public function index()
 	{
-		$this->load->view('index');
+		echo '<script>';
+		echo 'console.log("hello from php")';
+		echo '</script>';
+		// $this->load->view('index');
 	}
 }
