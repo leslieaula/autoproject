@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>AutoProject: Login</title>
+    <title>AutoProject: Registration</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600&amp;display=swap">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -23,21 +24,26 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="home.html">Home</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="news.html">News</a></li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link text-secondary" data-toggle="dropdown" aria-expanded="false" href="#">Review</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">New Cars</a><a class="dropdown-item" role="presentation" href="#">Used Cars</a></div>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="review_newcars.html">New Cars</a><a class="dropdown-item" role="presentation" href="review_usedcars.html">Used Cars</a></div>
                     </li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About Us</a></li>
                 </ul><span class="navbar-text actions"> <a class="login" href="login.html">Login</a><a class="login" href="#">|</a><a class="login" href="register.html">Register</a></span>
             </div>
         </div>
     </nav>
-    <div class="login-clean">
-        <form method="post">
-            <h2 class="sr-only">Login Form</h2>
-            <div class="illustration"><i class="icon ion-ios-navigate"></i></div>
-            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
-            <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Log In</button></div><a class="forgot" href="#">Forgot your email or password?</a>
-        </form>
+    <div class="register-photo">
+        <div class="form-container">
+            <form method="post">
+                <h2 class="text-center"><strong>Create</strong> an account.</h2>
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password-repeat" placeholder="Password (repeat)"></div>
+                <div class="form-group">
+                    <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
+                </div>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Sign Up</button></div><a class="already" href="#">You already have an account? Login here.</a>
+            </form>
+        </div>
     </div>
     <div class="footer-dark">
         <footer>

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="<?= base_url(); ?>assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/Article-List.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/Login-Form-Clean.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/Navigation-with-Button.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/News-Cards.css">
@@ -27,7 +28,7 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="<?= base_url('news'); ?>">News</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="<?= base_url('home/review'); ?>">Review</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="<?= base_url('home/about'); ?>">About Us</a></li>
-                </ul><span class="navbar-text actions"> <a class="login"  href="<?= base_url('login'); ?>">Login</a><a class="login">|</a><a class="login" href="register.html">Register</a></span>
+                </ul><span class="navbar-text actions"> <a class="login" href="<?= base_url('login'); ?>">Login</a><a class="login">|</a><a class="login" href="<?= base_url('register'); ?>">Register</a></span>
             </div>
         </div>
     </nav>
