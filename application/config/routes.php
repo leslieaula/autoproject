@@ -55,5 +55,6 @@ $route['translate_uri_dashes'] = FALSE;
 
 
 $route['news'] = 'news';
-$route['login'] = 'authorizations/login';
-$route['register'] = 'authorizations/register';
+$route['login'] = 'authorization/login';
+$route['register/submit']['post'] = 'authorization/register/submit';
+$route['register'] = 'authorization/register';

@@ -1,0 +1,10 @@
+POST
+http://localhost/autoproject/register
+
+Accept: application/json
+
+{
+    "name": "leslie",
+    "password": "test",
+    "email": "test@test.test"
+}
